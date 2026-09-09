@@ -1,4 +1,4 @@
-\# Fundamentos em C para iniciantes
+////### Fundamentos em C para iniciantes.
 
 
 
@@ -10,8 +10,7 @@ Um guia introdutório sobre os fundamentos da linguagem C, desenvolvido como mat
 
 
 
-Apresentar conceitos básicos de programação e a sintaxe da linguagem C.
----
+## Apresentar conceitos básicos de programação e a sintaxe da linguagem C.
 
 \## Público-alvo
 
@@ -37,8 +36,7 @@ Um computador;
 
 Um compilador de C (pode usar o site GDB online Debugger para codar);
 
-Disposição para praticar os exemplos e exercícios apresentados.
----
+## Disposição para praticar os exemplos e exercícios apresentados.
 
 \## Estrutura do guia
 
@@ -56,8 +54,7 @@ docs/03-exercicios.md — Exercícios para praticar os conteúdos apresentados.
 
 docs/04-referencias.md — Materiais utilizados como referência.
 
-exemplos/respostas\_exercicios.md — Exemplos que servem de resposta para os exercícios em C.
----
+## exemplos/respostas\_exercicios.md — Exemplos que servem de resposta para os exercícios em C.
 
 \## Instruções de navegação
 

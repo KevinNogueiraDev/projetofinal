@@ -1,85 +1,62 @@
-\# Respostas dos exercícios
-
+# Respostas dos exercícios
 
 ## Exercício 1 — Soma
 
-
-
 ```c
-
-\#include <stdio.h>
-
-
+# include <stdio.h>
 
 int main() {
 
-&#x20;   int numero1, numero2, soma;
+    int numero1, numero2, soma;
 
+    scanf("%d %d", \&numero1, \&numero2);
 
-
-&#x20;   scanf("%d %d", \&numero1, \&numero2);
-
-&#x09;
     soma = numero1 + numero2;	
 
+    printf("Soma: %d\\n", soma);
 
-&#x20;   printf("Soma: %d\\n", soma);
-
-
-
-&#x20;   return 0;
+    return 0;
 
 }
+```
 
 ## Exercício 2 - Par ou ímpar
-
+```c
 #include <stdio.h>
-
-
 
 int main() {
 
-&#x20;   int numero;
+    int numero;
 
+    scanf("%d", \&numero);
 
+    if (numero % 2 == 0) {
 
-&#x20;   scanf("%d", \&numero);
+    printf("Par\\n");
 
+    } else {
 
+        printf("Impar\\n");
 
-&#x20;   if (numero % 2 == 0) {
+    }
 
-&#x20;       printf("Par\\n");
-
-&#x20;   } else {
-
-&#x20;       printf("Impar\\n");
-
-&#x20;   }
-
-
-
-&#x20;   return 0;
+    return 0;
 
 }
-
+```
 ## Execício 3 - Contagem
-
+```c
 #include <stdio.h>
-
-
 
 int main() {
 
-&#x20;   for (int i = 1; i <= 10; i++) {
+    for (int i = 1; i <= 10; i++) {
+    
+        printf("%d\\n", i);
 
-&#x20;       printf("%d\\n", i);
+    }
 
-&#x20;   }
-
-
-
-&#x20;   return 0;
+    return 0;
 
 }
-
+```

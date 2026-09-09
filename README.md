@@ -22,6 +22,7 @@ Um compilador de C (pode usar o site GDB online Debugger para codar);
 
 Disposição para praticar os exemplos e exercícios apresentados.
 
+
 ## Estrutura do guia
 
 O conteúdo está organizado da seguinte forma:
